@@ -1,0 +1,41 @@
+.person-details {
+  display: flex;
+  margin-top: 1rem;
+  flex-direction: row;
+  padding: 1rem;
+}
+
+.jumbotron {
+  margin-bottom: 0.5rem;
+}
+
+.person-details .image-container {
+  width: 35%;
+}
+
+.person-details .person-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.person-details .list-group-item {
+  padding: 0.25rem;
+}
+
+.person-details .list-group-item .term {
+  margin-right: 0.5rem;
+}
+
+.person-details button {
+  margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+  .person-details .image-container {
+    width: 100%;
+  }
+  .person-details .card-body {
+    width: 100%;
+  }
+}
